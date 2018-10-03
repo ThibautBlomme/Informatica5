@@ -8,3 +8,5 @@ print(randint(0,10))
 print(randint(0,10))
 print(randint(0,10))
 print(randint(0,10))
+
+print('{:>6d} + {:<6,0f} + {:')
