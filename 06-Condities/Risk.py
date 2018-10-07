@@ -8,14 +8,8 @@ a = int(max(a1, a2, a3))
 x = int(min(a1, a2, a3))
 c = int(max(d1, d2))
 d = int(min(d1, d2))
-#bepaling b
-if a1 != a and a1 != x:
-    e = a1
-elif a2 != a and a2 != x:
-    e = a2
-elif a3 != a and a3 != x:
-    e = a3
-b = int(e)
+y = int(a1) + int(a2) + int(a3)
+b = int(y) - int(a) - int(x)
 
 #code
 if a > c and b > d:
