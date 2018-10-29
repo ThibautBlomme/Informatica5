@@ -8,8 +8,8 @@ if getal > 1:
             if getal % i == 0:
                 variabele += 1
     if variabele > 1:
-        print('{} is geen priemgetal.'.format(getal))
+        print('{} is geen priemgetal'.format(getal))
     else:
-        print('{} is een priemgetal.'.format(getal))
+        print('{} is een priemgetal'.format(getal))
 else:
-    print('{} is geen priemgetal.'.format(getal))
+    print('{} is geen priemgetal'.format(getal))
