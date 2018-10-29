@@ -1,7 +1,9 @@
+# variabelen
 vraag = int(input('Geef het aantal getallen: '))
 maximum = int(input('Geef een getal: '))
 som = maximum
 
+# loop
 for _ in range(1, vraag):
     getal = int(input('Geef een getal: '))
     maximum = max(getal, maximum)
