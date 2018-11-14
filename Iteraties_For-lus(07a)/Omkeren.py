@@ -2,7 +2,7 @@
 woord = ''
 x = input('Geef een woord: ')
 
-for i in x:
-    woord = i + woord
+for letter in x:
+    woord = letter + woord
 
 print(woord)
